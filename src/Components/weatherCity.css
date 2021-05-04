@@ -1,0 +1,30 @@
+.uaoweathercard{
+    max-width: 20rem;
+    padding: 1rem;
+    margin: 0.5rem;
+    box-shadow: 10px 10px 10px #CCC;
+
+}
+
+.uaoweatherInfo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+Title{
+    display: flex;
+    text-align: left;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+.weatherIcon{
+    size: 10rem;
+}
+
+.weatherExtra{
+    font-size: 0.7rem;
+}

@@ -1,9 +1,9 @@
 import React from "react";
 
-const Title = () => (
-    <div>
-        <h3>Santiago de Cali</h3>
-    </div>
-);
+const Title = ({city}) => {
+    return (
+        <h1>{city}</h1>
+    );
+};
 
 export default Title;

@@ -1,26 +1,30 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
-import Title from "./Components/Title";
-import WeatherInfo from "./Components/WeatherInfo";
+import WeatherCity from "./Components/WeatherCity";
+import RetoMain from './RetoComponents/RetoMain';
+import Cards from "./Components/Cards.js";
 
 
 function App() {
   return (
     <div className="App">
-      <Title></Title>
-      <WeatherInfo></WeatherInfo>
+      <Cards></Cards>
+
     </div>
   );
 }
 
 export default App;
 /*
+      <RetoMain></RetoMain>
+<WeatherCity></WeatherCity>
 <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
+        <a  
+        
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
