@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 
 const icons = {
     [SUN] : "day-sunny",
-    [CLOUD] : "cloud",
+    [CLOUD] : "Clouds",
     [CLOUDY] : "cloudy",
     [RAIN] : "rain",
     [SNOW] : "snow",

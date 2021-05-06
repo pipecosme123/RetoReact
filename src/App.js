@@ -8,8 +8,7 @@ import Cards from "./Components/Cards.js";
 function App() {
   return (
     <div className="App">
-      <Cards></Cards>
-
+      <WeatherCity></WeatherCity>
     </div>
   );
 }
@@ -17,7 +16,7 @@ function App() {
 export default App;
 /*
       <RetoMain></RetoMain>
-<WeatherCity></WeatherCity>
+<Cards></Cards>
 <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
